@@ -11,7 +11,7 @@ function App() {
         considered for the future, our current areas of
         expertise are as follows:
       </div>
-    <ul className='home-list'>
+      <ul className='home-list'>
         <li className='list-item'>Lawn Mowing & Edging</li>
         <li className='list-item'>Mulch, Gravel, & Dirt Laying</li>
         <li className='list-item'>Pressure Washing</li>
@@ -19,6 +19,25 @@ function App() {
         <li className='list-item'>Spring Cleanup</li>
         <li className='list-item'>Fall Cleanup</li>
       </ul>
+      <div className='home-info'>
+        Below are some before and after pictures of past jobs:
+      </div>
+      <div className='pic-container'>
+        <div className='before-pics'>
+          <div className='pic-title'>Before</div>
+          <img src='https://i.imgur.com/2Cm6S4T.jpg' alt='Backyard Filled With Leaves' className='pic' />
+          <img src='https://i.imgur.com/TkiHFqk.jpg' alt='Overgrown Shrubs' className='pic' />
+          <img src='https://i.imgur.com/bJZY5zV.jpg' alt='Garden Before Being Mulched' className='pic' />
+          <img src='https://i.imgur.com/GsDbSTq.jpg' alt='Backyard With Large Debris Pile' className='pic' />
+        </div>
+        <div className='after-pics'>
+          <div className='pic-title'>After</div>
+          <img src='https://i.imgur.com/pSOduvk.jpg' alt='Backyard Leaves Cleaned' className='pic' />
+          <img src='https://i.imgur.com/h95Ay8M.jpg' alt='Shrubs Cleaned Up' className='pic' />
+          <img src='https://i.imgur.com/43ch0CU.jpg' alt='Newly Mulched Garden' className='pic' />
+          <img src='https://i.imgur.com/K1po0Mc.jpg' alt='Backyard Debris Pile Cleaned' className='pic' />
+        </div>
+      </div>
     </div>
   );
 }

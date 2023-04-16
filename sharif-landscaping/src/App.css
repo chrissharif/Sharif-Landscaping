@@ -6,7 +6,7 @@
 }
 
 .home-list {
-  margin: 50px 0px;
+  margin: 70px 0px;
   font-family: 'Raleway';
   font-size: 20px;
   list-style: '➝';
@@ -22,4 +22,25 @@
 .list-item {
   padding-left: 10px;
   margin: 5px 0px;
+}
+
+.pic {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  margin-bottom: 50px;
+}
+
+.pic-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 150px;
+  width: 80%;
+}
+
+.pic-title {
+  margin: 50px 0px 25px 0px;
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: bold;
 }
