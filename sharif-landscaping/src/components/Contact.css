@@ -1,0 +1,54 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway';
+  font-size: 25px;
+  width: 300px;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 50px 0px;
+  font-size: 25px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  width: 50%;
+}
+
+.contact-input {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  margin: 15px 0px;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+.contact-input:hover {
+  background-color: rgb(239, 239, 239);
+}
+
+.submit-button {
+  background-color: rgb(45, 45, 45);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  margin: 20px 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  padding: 5px 0px;
+}
+
+.submit-button:hover {
+  background-color: rgb(110, 110, 110);
+}
