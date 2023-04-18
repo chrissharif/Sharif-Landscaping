@@ -1,4 +1,5 @@
 import './App.css';
+import {Link} from 'react-router-dom'
 
 function App() {
   return (
@@ -20,6 +21,14 @@ function App() {
         <li className='list-item'>Fall Cleanup</li>
       </ul>
       <div className='home-info'>
+        Sharif Home Services is based in Ocean County, NJ
+        and for the time being, will only be able to complete
+        services within this county. If you or someone you know
+        that lives outside this area would like to use our services,
+        please <Link to='/contact-us' className='home-contact-link'>contact us</Link> and we
+        will assess to see if we are able to help.
+      </div>
+      <div className='pic-info'>
         Below are some before and after pictures of past jobs:
       </div>
       <div className='pic-container'>

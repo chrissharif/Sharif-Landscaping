@@ -1,3 +1,13 @@
+.home-contact-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.home-contact-link:hover {
+  opacity: 50%;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
@@ -36,6 +46,14 @@
   grid-template-columns: 50% 50%;
   grid-gap: 150px;
   width: 80%;
+}
+
+.pic-info {
+  font-family: 'Raleway';
+  font-size: 25px;
+  text-align: center;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .pic-title {

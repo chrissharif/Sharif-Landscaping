@@ -55,3 +55,28 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .nav-title {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-title {
+    font-size: 40px;
+  }
+}

@@ -7,8 +7,10 @@ export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
+    e.preventDefault()
     emailjs.sendForm('service_8m4m11o', 'template_pyszqua', form.current, 'h32hmB8tPU-nBHM5k')
       .then((result) => {
+        alert('Successfully sent! We will get back to you as soon as possible.')
       }, (error) => {
     });
   };
@@ -23,7 +25,7 @@ export default function Contact() {
       </div>
       <div className='contact-form-container'>
         <form ref={form} onSubmit={sendEmail} className='contact-form'>
-          <label for="name">Name:</label>
+          <label for="name">Full Name:</label>
           <input type="text" name='user_name' className='contact-input'/>
           <label for="phone">Phone:</label>
           <input type="text" name='user_phone' className='contact-input'/>
