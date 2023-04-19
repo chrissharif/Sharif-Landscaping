@@ -1,0 +1,46 @@
+.footer-container {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-style: solid none none none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-credit {
+  font-size: 15px;
+  font-family: 'Raleway';
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-linkedin {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+}
+
+.footer-linkedin:hover {
+  opacity: 50%;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0px 20px;
+}
+
+.footer-logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 30px;
+  font-family: 'Raleway';
+  color: rgb(65, 239, 115);
+  font-weight: bold;
+}

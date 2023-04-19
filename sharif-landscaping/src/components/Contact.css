@@ -53,3 +53,9 @@
 .submit-button:hover {
   background-color: rgb(110, 110, 110);
 }
+
+@media screen and (max-width: 500px) {
+  .contact-form {
+    width: 300px;
+  }
+}
