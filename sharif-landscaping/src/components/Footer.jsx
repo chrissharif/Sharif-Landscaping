@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
       <div className='footer-credit'>
         <div>Website created by Christopher Sharif</div>
-        <a href='https://www.linkedin.com/in/christopher-sharif-754598211/' target='_blank'>
+        <a href='https://www.linkedin.com/in/christopher-sharif-754598211/' target='_blank' rel='noreferrer'>
           <img src='https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png' alt='Christopher Sharif LinkedIn' className='footer-linkedin' />
         </a>
       </div>
