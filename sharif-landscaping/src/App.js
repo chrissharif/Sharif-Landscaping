@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="home-container">
       <div className='home-info'>
-        Sharif Home Services offers several different
+        Sharif Landscaping offers several different
         ways to keep your home looking and working amazing.
         Our goal is to turn your inconvenience into more
         time for yourself. While more services are being
@@ -21,7 +21,7 @@ function App() {
         <li className='list-item'>Fall Cleanup</li>
       </ul>
       <div className='home-info'>
-        Sharif Home Services is based in Ocean County, NJ
+        Sharif Landscaping is based in Ocean County, NJ
         and for the time being, will only be able to complete
         services within this county. If you or someone you know
         that lives outside this area would like to use our services,

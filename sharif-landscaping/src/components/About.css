@@ -1,0 +1,17 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-info {
+  font-size: 25px;
+  font-family: 'Raleway';
+  width: 60%;
+  text-align: center;
+  margin: 50px 0px;
+  border: 1px solid lightgrey;
+  border-style: solid none solid none;
+  padding: 25px 0px;
+}
