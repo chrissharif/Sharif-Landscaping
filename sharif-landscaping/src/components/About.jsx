@@ -11,7 +11,7 @@ export default function About() {
         He grew up loving to work outside and get his hands
         dirty, so he decided to start by helping out family
         members and friends with small and simple jobs
-        they needed done aroud the house. He loved the type
+        they needed done around the house. He loved the type
         of work that he was doing, so he decided to
         try and get even more business. Being able to help out
         people in the area with work they can't, don't
