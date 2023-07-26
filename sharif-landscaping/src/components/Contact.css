@@ -57,5 +57,11 @@
 @media screen and (max-width: 500px) {
   .contact-form {
     width: 300px;
+    font-size: 12px;
+  }
+
+  .contact-info {
+    font-size: 12px;
+    margin-bottom: 25px;
   }
 }
